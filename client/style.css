@@ -1,3 +1,26 @@
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
 h1 {
   color: blue;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  border: 1px solid red;
+  left: 20px;
+  top: 20px;
+  /*margin-left: 50px;
+  margin-top: 200px;*/
+  /*position: absolute;*/
+}
+
+.box-inner {
+  width: 20px;
+  height: 20px;
+  background-color: yellow;
 }
